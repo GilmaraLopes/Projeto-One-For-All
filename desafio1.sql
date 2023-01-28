@@ -8,7 +8,7 @@ CREATE TABLE
     SpotifyClone.plano(
         idPlano INT AUTO_INCREMENT PRIMARY KEY,
         categoria VARCHAR(50) NOT NULL,
-        valor DOUBLE NOT NULL
+        valor DECIMAL(10,2) NOT NULL
     );
 
 CREATE TABLE
