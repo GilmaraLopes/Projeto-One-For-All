@@ -7,5 +7,5 @@ FROM
 GROUP BY m.nomeMusica
 ORDER BY
     COUNT("reproducoes") DESC,
-    "cancao"
+    m.nomeMusica
 LIMIT 2;
